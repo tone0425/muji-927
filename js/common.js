@@ -1,0 +1,1 @@
+$(function(){$("#hGlobalNav h1").on("click",function(){$("body").addClass("menuOpen")}),$("#hGlobalNav .cancel").on("click",function(){$("body").removeClass("menuOpen")}),$(window).on("load",function(){$(".top-col").addClass("animated")})});
